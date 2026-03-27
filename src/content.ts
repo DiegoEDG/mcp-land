@@ -44,21 +44,21 @@ export const CONTENT: Record<Lang, Content> = {
 		nav: { loop: 'Loop', activation: 'Activation', toolkit: 'Toolkit', compare: 'Compare' },
 		hero: {
 			kicker: 'Infrastructure of Done',
-			title: 'Make your agent build. Let FENKIT prove it.',
+			title: 'Build with your agent. Prove it with FENKIT.',
 			subtitle:
-				'The automated task-coordination layer in combination with FENKIT APP that bridges the gap between AI agents and real project outcomes.',
+				'The automated execution layer that bridges the gap between AI assistance and real outcomes. Fenkit MCP reads, builds, and documents tasks automatically—giving your team speed, order, and traceability.',
 			primaryCta: 'Run setup command',
 			secondaryCta: 'Explore the loop'
 		},
 		loop: {
 			title: 'The Auto-Invoke Success Loop',
 			subtitle:
-				'The developer remains in control while the agent executes. Every step is automatically documented and synced back to the FENKIT dashboard.',
+				'Shift to Spec-Driven Development. You define the architecture and validate critical decisions; your agent executes with technical autonomy without losing control or context.',
 			steps: [
-				'Agent calls list_tasks() and receives full context.',
-				'Agent executes implementation based on task requirements.',
-				'Agent submits update_task_walkthrough() automatically.',
-				'Task status is set to Done and synced to backend.'
+				'Agent retrieves tasks with full context via list_tasks().',
+				'Autonomous implementation based on technical requirements.',
+				'Automated documentation of plan and walkthrough evidence.',
+				'Real-time task synchronization to FENKIT dashboard.'
 			]
 		},
 		activation: {
@@ -75,7 +75,8 @@ export const CONTENT: Record<Lang, Content> = {
 		},
 		compare: {
 			title: 'The Power of AI Synchronization',
-			subtitle: 'Manual tracking is a thing of the past. The MCP loop is operational discipline for modern teams.',
+			subtitle:
+				'Building with AI today involves too much copy-paste and manual overhead. Transform fragmented assistance into a continuous, actionable workflow.',
 			rows: [
 				['Context', 'Fragmented and stale', 'Always synchronous'],
 				['Documentation', '“I will write it later”', 'Automatic plan + walkthrough'],
@@ -95,7 +96,8 @@ export const CONTENT: Record<Lang, Content> = {
 		},
 		final: {
 			title: 'Build something intelligent.',
-			subtitle: 'Use FENKIT APP as command center and MCP as execution infrastructure.',
+			subtitle:
+				'Centralized execution. Every task includes automated evidence of the plan, changes, and implementation walkthrough.',
 			appCta: 'Explore FENKIT APP',
 			mcpCta: 'Install via npm'
 		},
@@ -112,21 +114,21 @@ export const CONTENT: Record<Lang, Content> = {
 		nav: { loop: 'Loop', activation: 'Activación', toolkit: 'Herramientas', compare: 'Comparativa' },
 		hero: {
 			kicker: 'Infraestructura del Done',
-			title: 'Haz que tu agente construya. Deja que FENKIT lo refleje.',
+			title: 'Haz que tu IA trabaje. Deja que FENKIT lo refleje.',
 			subtitle:
-				'La capa de coordinación de tareas en conjunto con FENKIT APP que une a los agentes de IA con resultados reales. Cero fricción, máximo control y sincronización absoluta.',
+				'La infraestructura que une a los agentes de IA con resultados reales. Fenkit MCP permite que tu agente lea, ejecute y documente tareas automáticamente, ganando velocidad y trazabilidad sin trabajo manual.',
 			primaryCta: 'Ejecutar setup',
 			secondaryCta: 'Ver el loop'
 		},
 		loop: {
-			title: 'El Loop de Éxito Auto-Invoke',
+			title: 'El Loop exitoso del Auto-Invoke',
 			subtitle:
-				'El desarrollador mantiene el control mientras el agente ejecuta. Cada paso se documenta y sincroniza automáticamente en el dashboard de FENKIT.',
+				'Hacia un enfoque Spec-Driven Development: tú tienes el control de la arquitectura y validas decisiones críticas, mientras el agente ejecuta con autonomía técnica.',
 			steps: [
-				'El agente llama list_tasks() y recibe contexto completo.',
-				'El agente implementa según requisitos de la tarea.',
-				'El agente envía update_task_walkthrough() automáticamente.',
-				'La tarea pasa a Done y se sincroniza al backend.'
+				'El agente recupera tareas con contexto completo via list_tasks().',
+				'Implementación autónoma basada en requerimientos técnicos.',
+				'Documentación automática de plan y walkthrough/evidencia.',
+				'Sincronización del estado Done en tiempo real.'
 			]
 		},
 		activation: {
@@ -143,7 +145,8 @@ export const CONTENT: Record<Lang, Content> = {
 		},
 		compare: {
 			title: 'El Poder de la Sincronización IA',
-			subtitle: 'El seguimiento manual es cosa del pasado. El loop MCP es disciplina operativa para equipos modernos.',
+			subtitle:
+				'Hoy, construir con IA implica demasiado copy-paste. Fenkit elimina esa fricción y transforma la asistencia en un flujo de trabajo continuo, trazable y accionable.',
 			rows: [
 				['Contexto', 'Fragmentado y desactualizado', 'Siempre sincrónico'],
 				['Documentación', '“Luego lo escribo”', 'Plan + walkthrough automático'],
@@ -163,7 +166,8 @@ export const CONTENT: Record<Lang, Content> = {
 		},
 		final: {
 			title: 'Construye algo inteligente.',
-			subtitle: 'Usa FENKIT APP como centro de mando y MCP como infraestructura de ejecución.',
+			subtitle:
+				'Control centralizado en FENKIT App. Cada tarea incluye evidencia clara del plan, los cambios y el walkthrough de manera automática.',
 			appCta: 'Explorar FENKIT APP',
 			mcpCta: 'Instalar vía npm'
 		},
