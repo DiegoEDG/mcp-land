@@ -104,7 +104,7 @@ export const CONTENT: Record<Lang, Content> = {
 			copy: '© 2026 FENKIT MCP. Built to scale developer productivity.'
 		},
 		links: {
-			app: 'https://ickit-fe.vercel.app',
+			app: 'https://fenkit-land.vercel.app',
 			npm: 'https://www.npmjs.com/package/fenkit-mcp'
 		}
 	},
